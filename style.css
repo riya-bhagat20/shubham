@@ -1,0 +1,131 @@
+*{
+    margin: 0px;
+    padding:0px;
+}
+main{
+   font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+.show-box1{
+    width: 100%;
+    height: 90vh;
+    background-image: url("pexels-photo-248515.png");
+    background-size: cover;
+    color: white;
+   display: flex;
+   justify-content: center;
+   align-items: center;
+}
+.title-box{
+    text-align: center;
+    font-size: 3rem;
+    >p{
+        margin:3rem;
+    }
+    >button{
+        margin: 3rem;
+        padding: 2rem 4rem;
+        font-size: 2rem;
+        cursor: pointer;
+        background-color: black;
+        color: white;
+        border: none;
+    }
+   }
+   button:hover{
+    background-color: white;
+    color:black;
+   }
+   .h1{
+    background-color: rgb(236, 236, 236);
+    text-align: center;
+    font-size:2rem;
+    padding:3rem;
+   }
+   .show-box2{
+    background-color: rgb(236, 236, 236);
+    padding:1rem 3rem 3rem;
+    display: flex;
+    justify-content:space-between;
+    font-size:2rem;
+    gap:2rem;
+} 
+.title-box2{
+    margin:2rem;
+    padding: 0%;
+}
+.show-box3{
+    width: 100%;
+    height: 100vh;
+    background-color: black;
+    display: flex;
+    justify-content:space-around;
+    align-items: center;
+}
+.show-box3 .img-box{
+    width:500px;
+    height:80vh;
+    text-align: center;
+    background-color:white;
+   font-size:2rem;
+   >h1{
+    padding:3rem 0px;
+   }
+}
+.show-box4{
+    padding:3rem 0px 12rem;
+    text-align: center;
+    >h1{
+        font-size:4rem; 
+        padding:4rem 3rem 3rem;  
+    }
+    >p{
+        font-size:3rem ;
+        padding:2rem 3rem 1rem;
+    }
+}
+.show-box5{
+    display: flex;
+    justify-content:space-around;
+    align-items: center; 
+}
+.title-box3{
+   width:50%;
+   height:70vh;
+    background-color: rgb(93, 93, 252);
+    color: white;
+    text-align: center;
+    font-size:3rem; 
+    >h1{
+        padding:3rem ;
+    }
+    >p{
+        margin: 0px 5rem;
+        padding:3rem ;
+        font-size: 2rem;
+}
+}
+.title-box4{
+    width:50%;
+    height:70vh;
+    background-color:rgb(84, 83, 83);
+    color: white;
+    text-align: center;
+    font-size:3rem;
+    >h1{
+        padding:3rem;
+    }
+    >p{
+        margin: 0px 5rem;
+        padding:3rem;
+        font-size: 2rem;
+}
+}
+footer{
+    background-color: rgb(15, 15, 15);
+    color: white;
+    >h1{
+        padding:4rem 7rem;
+        font-size:3rem;
+
+    }
+}
